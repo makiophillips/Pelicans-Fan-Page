@@ -1,0 +1,108 @@
+body {
+    margin: 0%;
+}
+main {
+    display: flex;
+    align-content: flex-start;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #0C2340;
+}
+h1 {
+    font-family:'Open Sans', sans-serif;
+    font-size: 70px;
+    color: #85714D;
+}
+h2,h3{
+    font-family:'Open Sans', sans-serif;
+    font-size: 35px;
+}
+section{
+    color: #0C2340;
+}
+p{
+    font-size: 30px;
+}
+.column-left {
+    display: flex;
+    align-items: center;
+}
+.container-two {
+    display: flex;
+    flex-direction: column;
+}
+.container-three {
+    display: flex;
+    align-content: center;
+    justify-content: space-evenly;
+}
+.image-1 {
+    height: 600px;
+    width: 400px;
+}
+.pels-news{
+    display: flex;
+    align-content: flex-start;
+    align-items: center;
+    justify-content: center;
+    font-size: 64px;
+    color: #85714D;
+}
+.container-four{
+    display: flex;
+    align-content: center;
+    align-items: center;
+    justify-content: space-around;
+    margin-right: 450px;
+}
+.external-header{
+    font-size: 64px;
+    color: #85714D;
+}
+.external-links{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+.links{
+    justify-content: space-evenly;
+    flex-direction: column;
+    display: flex;
+    font-size: 36px;
+}
+.team-photos{
+    display: flex;
+    justify-content: center;
+}
+.image-container{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: center;
+}
+img {
+    width: 678px;
+    height: 381px;
+}
+figcaption{
+    font-size: 30px;
+    justify-content: center;
+}
+.container-five{
+    display: flex;
+    justify-content: center;
+}
+.container-six{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    align-content: flex-start;
+}
+fieldset{
+    border: #C8102E solid;
+    font-size: 50px;
+    color: #0C2340;
+}
+input{
+    padding: 20px 30px;
+}
