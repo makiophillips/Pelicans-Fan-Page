@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Pelicans Fan Page</title>
+        <link rel="stylesheet" type="text/css" href="style.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap" rel="stylesheet">
+    </head>
+<body>
+    <main class="container">
+          <div class="column-left">
+            <div>
+            <img class="main-image" src="img/pels-logo.png">
+            </div>
+            <div>
+            <h1 class="flock">Flock Up</h1>
+            </div>
+          </div>
+            <div class="column-right">
+                <h3>
+                  <ul>
+                    <a href="home.html">Home</a>
+                    <a href="news.html">News</a>
+                    <a href="team.html">Team</a>
+                    <a href="sign-up.html">Sign-Up</a>
+                  </ul>
+                </h3>
+            </div>
+    </main>
+    <div class="container-six">
+    <img class="image-1" src="img/pels-one.jpg">
+    <fieldset class="container-five">
+        <form action="/form-handling-url" method="post">
+            <legend>Registration</legend>
+        <div>
+            <label for="yourname">Your name:</label>
+            <input type="text" id="yourname" name="your_name">
+        </div>
+        <br>
+        <div>
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email_address">
+        </div>
+        <br>
+        <div>
+        <label for="date" class="SD date">Date:</label>
+            <input type="text" id="date" name="date" size="20">
+        </div>
+        <br>
+        <div class="checkboxes">
+            <input type="checkbox" id="signup" name="signup" value="Signup" size="4px">
+            <label for="signup">sign up for news</label>
+            <input type="checkbox" id="terms" name="terms" value="Terms" size="4px">
+            <label for="terms"> agree to terms</label>
+        </div>
+        <br>
+        <div>
+            <label class="comments" for="comments">Reason for joining:</label>
+            <textarea id="comments" name="comments"></textarea>
+        </div>
+        <br>
+        <div>
+        <button type="submit" id="submit" size="10px">Submit</button>
+        </div>
+    </fieldset>
+  <img class="image-1" src="img/pels-one.jpg">
+    </div>
+</body>
+</html>
